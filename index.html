@@ -13,6 +13,9 @@
 
     <title>devChallenges.io | Minimal Blog Card</title>
 
+    <!-- viewport (don't think this was an issue, but just in case; would come in handy for media queries) -->
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
     <!-- Styles -->
      <link rel="stylesheet" href="css/stylesheet.css">
   </head>
@@ -25,28 +28,35 @@
 
   Annie Spratt -->
 
+
+  <!-- <h2 style="color:green">GeeksforGeeks</h2>
+  <div class="center">
+      This text is centered
+  </div> -->
     <div class="author-info">
       Coded by <a href="#">Dara Cline</a> | Challenge by
       <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
         >devChallenges.io</a
       >.
     </div>
-    <div class="card">
-      <img class="card-img" src="images/Cactus.jpg" alt="cactus-plant">
-      <div class="card-tags">
-        <p>Design</p>
-      </div>
-      <div class="card-info">
-        <div class="card-header">
-          <h1>Embracing Minimalism</h1>
+    <div class="flex-container">
+      <div class="card">
+        <img class="card-img" src="images/Cactus.jpg" alt="cactus-plant">
+        <div class="card-tags">
+          <p class="design-tag">Design</p>
         </div>
-        <div class="card-text">
-          <p>From minimalist sculptures to minimalist paintings, this blog will inspire you to appreciate the beauty that lies in simplicity.</p>
+        <div class="card-info">
+          <div class="card-header">
+            <h1>Embracing Minimalism</h1>
+          </div>
+          <div class="card-text">
+            <p>From minimalist sculptures to minimalist paintings, this blog will inspire you to appreciate the beauty that lies in simplicity.</p>
+          </div>
         </div>
-      </div>
-      <hr>
-      <div class="card-author">
-        <p>Annie Spratt</p>
+        <hr>
+        <div class="card-author">
+          <p>Annie Spratt</p>
+        </div>
       </div>
     </div>
   </body>
