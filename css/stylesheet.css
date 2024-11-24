@@ -25,16 +25,25 @@
 .sora-body {
     font-family: "Sora", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 500;
+    font-weight: 300;
     font-style: normal;
     font-size: .875rem;
 }
 
-.sora-tag {}
+.sora-tag {
+    font-weight: 500;
+    font-size: .625rem;
+}
 
-.sora-title {}
+.sora-title {
+    font-weight: 500;
+    font-size: 1.125rem;
+}
 
-.sora-small-txt {}
+.sora-small-txt {
+    font-weight: 400;
+    font-size: .75rem;
+}
 
 
 body {
@@ -99,6 +108,7 @@ body {
     text-align: center;
     border-radius: 10px;
     /* padding: 3px 0; */
+    font-size: .625rem;
 }
 
 hr {
