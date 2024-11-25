@@ -50,6 +50,17 @@ body {
     height: 100vh;
     background-color: #FAFAF9;
 }
+.card-tags a, .card-author a {
+    text-decoration: none;
+    display: block;
+
+    /* taken from the <p> as it appears in Chrome */
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
 
 .flex-container {
     display: flex;
@@ -102,4 +113,8 @@ hr {
     height: 1px;
     border: none;
     width: 100%;
+}
+
+.card-author a {
+    color: rgb(55, 65, 81);
 }
