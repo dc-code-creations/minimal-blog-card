@@ -88,10 +88,11 @@ body {
     border-radius: 10px;
     /* width: 336px; */
 
-    /* idk if there's another way to do this for regular images; object-fit and width 
-       don't really seem to do what I need or work at all really */
-    width: -webkit-fill-available;
-    align-self: center;
+    /*  idk if there's another way to do this for regular images; object-fit and width 
+        don't really seem to do what I need or work at all really
+            - setting align-self to stretch seems to solve this issue using flexbox */
+    /* width: -webkit-fill-available; */
+    align-self: stretch;
     /* object-fit: cover; */
 }
 
