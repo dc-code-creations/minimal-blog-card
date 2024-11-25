@@ -71,6 +71,7 @@ body {
 }
 
 .card {
+    background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
     justify-content: center;
