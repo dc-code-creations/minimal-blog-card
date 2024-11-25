@@ -81,11 +81,13 @@ body {
 }
 
 .card-body {
-    padding: 20px 20px 0;
+    padding: 16px 16px 20px;
 }
 
 .card-footer {
-    padding: 0 20px;
+    padding: 0 16px 20px;
+    display: flex;
+    align-items: flex-end;
 }
 
 .card img {
@@ -98,14 +100,27 @@ body {
     align-self: stretch;
 }
 
+.card-tags a {
+    display: inline-block;
+}
+
 .design-tag {
     color: #7C19EE;
     background-color: #F2EAFD;
-    width: 70px;
+    /* max-width: 70px; */
     text-align: center;
     border-radius: 10px;
-    padding: 3px 0;
+    padding: 3px 16px;
+    margin-top: 16px;
     font-size: .625rem;
+}
+
+.card-header {
+    margin: 16px 0 6px;
+}
+
+.card-text p {
+    margin: 0;
 }
 
 hr {
@@ -113,8 +128,12 @@ hr {
     height: 1px;
     border: none;
     width: 100%;
+    margin: 0;
 }
 
 .card-author a {
+    display: block;
     color: rgb(55, 65, 81);
+    padding-top: 20px;
+    margin: 0;
 }
