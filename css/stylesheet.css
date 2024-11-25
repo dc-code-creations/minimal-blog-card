@@ -75,7 +75,7 @@ body {
     flex-direction: column;
     justify-content: center;
     /* align-items: center; */
-    padding: 0 20px;
+    /* padding: 0 20px; */
     border: 1px solid;
     width: 370px;
     /* height: 380px; */
@@ -84,7 +84,7 @@ body {
 }
 
 .card img {
-    margin-top: 20px;
+    margin: 20px 20px 0;
     border-radius: 10px;
     /* width: 336px; */
 
@@ -96,20 +96,24 @@ body {
     /* object-fit: cover; */
 }
 
-/* .card-tags {
-    display: flex;
-    justify-content: center;
-} */
+.card-tags {
+    /* display: flex;
+    justify-content: center; */
+    margin: 0 20px;
+}
 
 .design-tag {
-    /* display: block; */
     color: #7C19EE;
     background-color: #F2EAFD;
     width: 70px;
     text-align: center;
     border-radius: 10px;
-    /* padding: 3px 0; */
+    padding: 3px 0;
     font-size: .625rem;
+}
+
+.card-info {
+    padding: 0 20px;
 }
 
 hr {
@@ -117,4 +121,8 @@ hr {
     height: 1px;
     border: none;
     width: 100%;
+}
+
+.card-author {
+    padding: 0 20px;
 }
