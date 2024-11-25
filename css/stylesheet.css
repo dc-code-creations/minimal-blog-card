@@ -22,7 +22,7 @@
     text-decoration: none;
   } */
 
-.sora-body {
+  .sora-body {
     font-family: "Sora", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
@@ -83,8 +83,16 @@ body {
     border-radius: 10px;
 }
 
+.card-body {
+    padding: 20px 20px 0;
+}
+
+.card-footer {
+    padding: 0 20px;
+}
+
 .card img {
-    margin: 20px 20px 0;
+    /* margin: 20px 20px 0; */
     border-radius: 10px;
     /* width: 336px; */
 
@@ -99,7 +107,7 @@ body {
 .card-tags {
     /* display: flex;
     justify-content: center; */
-    margin: 0 20px;
+    /* margin: 0 20px; */
 }
 
 .design-tag {
@@ -113,7 +121,7 @@ body {
 }
 
 .card-info {
-    padding: 0 20px;
+    /* padding: 0 20px; */
 }
 
 hr {
@@ -124,5 +132,5 @@ hr {
 }
 
 .card-author {
-    padding: 0 20px;
+    /* padding: 0 20px; */
 }
